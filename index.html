@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CypherFury - Game Deals</title>
+<meta name="description" content="Latest game deals from CypherFury reels. Official Steam links, newest on top.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0e11;
+    --card:#141a21;
+    --line:#232c36;
+    --text:#f2f5f7;
+    --muted:#9aa7b2;
+    --green:#a3e635;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',system-ui,sans-serif;
+    min-height:100vh;
+  }
+  .wrap{
+    max-width:480px;
+    margin:0 auto;
+    padding:28px 16px 40px;
+  }
+  header{text-align:center;margin-bottom:22px;}
+  .logo{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:44px;
+    letter-spacing:3px;
+    line-height:1;
+  }
+  .logo span{color:var(--green);}
+  .tagline{color:var(--muted);font-size:13px;margin-top:6px;}
+  .section-label{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:15px;
+    letter-spacing:2px;
+    color:var(--muted);
+    margin:18px 2px 10px;
+  }
+  .card{
+    display:block;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;
+    overflow:hidden;
+    text-decoration:none;
+    color:var(--text);
+    margin-bottom:16px;
+  }
+  .card img{width:100%;display:block;aspect-ratio:460/215;object-fit:cover;}
+  .card-body{padding:14px 16px 16px;}
+  .kicker{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:14px;
+    letter-spacing:2px;
+    color:var(--green);
+    margin-bottom:4px;
+  }
+  .game{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:30px;
+    letter-spacing:1px;
+    line-height:1.05;
+  }
+  .deal{font-size:14px;font-weight:600;margin-top:6px;}
+  .expiry{font-size:13px;color:var(--muted);margin-top:3px;}
+  .btn{
+    display:block;
+    text-align:center;
+    margin-top:12px;
+    background:var(--green);
+    color:#0b0e11;
+    font-weight:700;
+    font-size:15px;
+    padding:12px;
+    border-radius:10px;
+  }
+  footer{
+    text-align:center;
+    color:var(--muted);
+    font-size:12px;
+    margin-top:26px;
+    line-height:1.6;
+  }
+  footer .handle{color:var(--text);font-weight:600;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">CYPHER<span>FURY</span></div>
+    <div class="tagline">Game deals, first. Links from the reels, newest on top.</div>
+  </header>
+
+  <div class="section-label">LIVE DEALS</div>
+
+  <!-- Newest deal on top. Add new cards above this comment. -->
+  <a class="card" href="https://store.steampowered.com/app/1158310/Crusader_Kings_III/" target="_blank" rel="noopener">
+    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1158310/header.jpg" alt="Crusader Kings III">
+    <div class="card-body">
+      <div class="kicker">FREE WEEKEND ON STEAM</div>
+      <div class="game">CRUSADER KINGS III</div>
+      <div class="deal">Free to play all weekend. Keep it forever at 70% off: &#8377;941.</div>
+      <div class="expiry">Free play ends Mon 23 Nov, 11:30 PM IST &middot; Sale ends 30 Nov &middot; PC</div>
+      <div class="btn">Get it on Steam</div>
+    </div>
+  </a>
+
+  <a class="card" href="https://store.steampowered.com/app/225540/Just_Cause_3/" target="_blank" rel="noopener">
+    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225540/header.jpg" alt="Just Cause 3">
+    <div class="card-body">
+      <div class="kicker">85% OFF &middot; LOWEST PRICE</div>
+      <div class="game">JUST CAUSE 3</div>
+      <div class="deal">Just &#8377;59 on Steam, back to its lowest price.</div>
+      <div class="expiry">Deal ends 2 Dec &middot; PC</div>
+      <div class="btn">Get it on Steam</div>
+    </div>
+  </a>
+
+  <footer>
+    Links open the official Steam store. Prices shown for India.<br>
+    <span class="handle">@cypherfury</span> &middot; one deal reel a day
+  </footer>
+</div>
+</body>
+</html>
